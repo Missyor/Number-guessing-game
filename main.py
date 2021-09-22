@@ -34,14 +34,7 @@ else:
   print("Hard luck!") 
 '''
 
-if guess == number:
-  print("Correct! The number was", number)
-elif guess > number:
-  print("your guess is too high! The answer is", number)
-elif guess < number:
-  print("your guess is too low! The answer is", number)
-else:
-  print("Hard luck!") 
+
 
 #### Improve your code
 ## If the person guesses the wrong number they should be asked if they want to play again. If they choose yes, let them play again
